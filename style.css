@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4e7d3; /* Cor de fundo marrom claro */
+    padding: 20px;
+}
+
+header {
+    background: #8c7b75; /* Marrom mais escuro */
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    margin-top: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+section h2 {
+    margin-bottom: 10px;
+    color: #8c7b75; /* Usando o mesmo marrom escuro */
+}
+
+section p {
+    margin-bottom: 15px;
+    color: #4d4038; /* Marrom claro */
+}
+
+footer {
+    background: #f4e7d3;
+    color: #4d4038;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+ul li a {
+    color: #8c7b75; /* Links marrom escuro */
+}
+
+ul li a:hover {
+    color: #d4a373; /* Amarelo pastel */
+}
